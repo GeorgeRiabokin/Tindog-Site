@@ -1,28 +1,10 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -30,8 +12,31 @@ p {
   color: #8f8f8f;
 }
 
+/* Containers */
+
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* Navigation bar */
@@ -52,6 +57,13 @@ p {
   font-size: 1.2rem;
   font-weight: 400;
   padding: 0 18px;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Download buttons */
@@ -88,19 +100,21 @@ p {
 /* Features */
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
 .feature-icon {
   color: #ef8172;
   margin-bottom: 1rem;
+}
+
+.features-title {
+  font-size: 1.5rem;
 }
 
 .feature-icon:hover {
@@ -111,8 +125,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
-  text-align: center;
 }
 
 .testimonials-img {
@@ -121,11 +133,15 @@ p {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Press section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -134,19 +150,19 @@ p {
   margin: 20px 20px 50px;     /*------------------SPACE BETWEEN INLINE OBJECTS!!! */
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing */
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .fix-mastiff {
@@ -155,24 +171,9 @@ p {
 
 /* Call To Action */
 
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-  padding: 7% 15%;
-}
 
-.cta-text {
-  color: #fff;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
 
 /* Footer */
-
-#footer {
-  text-align: center;
-  padding: 7% 15%;
-}
 
 .footer-icon {
   margin: 0 10px;
